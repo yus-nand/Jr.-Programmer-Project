@@ -103,7 +103,7 @@ NavMeshSettings:
   serializedVersion: 2
   m_ObjectHideFlags: 0
   m_BuildSettings:
-    serializedVersion: 2
+    serializedVersion: 3
     agentTypeID: 0
     agentRadius: 1
     agentHeight: 2
@@ -116,6 +116,7 @@ NavMeshSettings:
     cellSize: 0.33333334
     manualTileSize: 0
     tileSize: 256
+    buildHeightMesh: 0
     maxJobWorkers: 0
     preserveTilesOutsideBounds: 0
     debug:
@@ -587,6 +588,9 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 79d7c88d232401041a7cf2c8adafb877, type: 3}
 --- !u!4 &650563490 stripped
 Transform:
